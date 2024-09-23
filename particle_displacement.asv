@@ -1,0 +1,19 @@
+% STURGEON, Philomene
+% 2024-09-18
+% MATLAB Vector Assignment
+
+% Problem D
+
+% particle_displacement: estimate displacement of a particle over time
+% using a plot
+
+x = 0:0.1:13;  % set of x values over the range 0 to 13 seconds at 0.1 s intervals
+y = abs(sqrt((t.^4)));  % set of y values equaling the velocity values 
+% in the function |v| = sqrt(t^4 +1)
+fig1 = plot(x,y);  % prints plot 
+xlabel("Time (s)");  % x axis labeled "Time (s)"
+ylabel("Velocity (m/s)");  % y axis labeled "Velocity (m/s)"
+title("Particle Displacement over 13 seconds", "FontSize",14);
+
+%End of Script
+%-------------
